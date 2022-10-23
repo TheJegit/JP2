@@ -55,15 +55,16 @@ a {
 }
 
 /*bottom elements */
-.footer  {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: static;
-    padding: 15px;
+footer  {
     height: 30px;
-    top: 0px;
-    font-size: large;
-    color: aliceblue;
     background-color: black;
+    color: coral;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
 }
+
